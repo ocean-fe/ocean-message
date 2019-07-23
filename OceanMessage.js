@@ -28,7 +28,7 @@ class OceanMessage {
       delete this.eventStack[eventName];
     } else if (this.eventStack[eventName]) {
       // 改动 map => filter
-      this.eventStack[eventName] = this.eventStack[eventName].filter((_callback) => {
+      this.eventStack[eventName] = this.eventStack[eventName].filter(_callback => {
         return _callback !== callback;
       });
       if (this.eventStack[eventName].length === 0) {
@@ -42,13 +42,13 @@ class OceanMessage {
    * 触发事件
    * @export
    * @param {string} eventName
-   * @returns null
+   * @return null
    */
   MsgTrigger(eventName, data) {
     if (!this.eventStack[eventName]) {
       return null;
     }
-    this.eventStack[eventName].map((callback) => {
+    this.eventStack[eventName].map(callback => {
       return callback(data);
     });
   }
