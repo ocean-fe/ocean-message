@@ -1,5 +1,5 @@
 {
-  "name": "@ocean/message",
+  "name": "@ocean-fe/message",
   "version": "1.0.0",
   "description": "ocean, message",
   "main": "gulp/dist/index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:BETA-FE-TEAM/ocean-message.git"
+    "url": "git@github.com:ocean-fe/ocean-message.git"
   },
   "keywords": [
     "ocean",
