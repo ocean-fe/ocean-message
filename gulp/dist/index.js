@@ -1,1 +1,1 @@
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var _message=_interopRequireDefault(require("./message"));function _interopRequireDefault(e){return e&&e.__esModule?e:{default:e}}var _default=_message.default;exports.default=_default;
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var _OceanMessage=_interopRequireDefault(require("./OceanMessage"));function _interopRequireDefault(e){return e&&e.__esModule?e:{default:e}}var _default=_OceanMessage.default;exports.default=_default;

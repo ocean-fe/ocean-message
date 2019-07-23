@@ -1,2 +1,2 @@
-import OceanMessage from './message'
+import OceanMessage from './OceanMessage';
 export default OceanMessage

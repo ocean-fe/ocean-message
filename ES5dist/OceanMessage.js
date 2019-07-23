@@ -66,7 +66,7 @@ function () {
      * 触发事件
      * @export
      * @param {string} eventName
-     * @returns null
+     * @return null
      */
 
   }, {

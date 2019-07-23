@@ -5,9 +5,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports["default"] = void 0;
 
-var _message = _interopRequireDefault(require("./message"));
+var _OceanMessage = _interopRequireDefault(require("./OceanMessage"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-var _default = _message["default"];
+var _default = _OceanMessage["default"];
 exports["default"] = _default;
